@@ -1,0 +1,21 @@
+let = Proovinud =0 
+let number = Math.floor(math.random() * 10) + 1
+console.log(number)
+while (password != number)
+    {
+    password = prompt("Sisesta number")
+  Prooinud++
+console.log('on proovinud', Proovinud )
+if (Proovinud > 4)
+        break
+if (password!=number)
+alert("Number X on vale ")
+if (password== number-1 || password== number+1)
+alert("Lähedal oled")
+if (password == null)
+break 
+
+
+}
+id(password==number) console.log("Õige number, läks kaua")
+console.log("Taun")
