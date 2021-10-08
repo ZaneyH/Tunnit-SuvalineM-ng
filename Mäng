@@ -1,15 +1,16 @@
-let = Proovinud =0 
-let number = Math.floor(math.random() * 10) + 1
+result = window.prompt("Arva arv ära;)");
+let Proovinud = 0 
+let number = Math.floor(Math.random() * 1) + 1
 console.log(number)
-while (password != number)
+while (password = "äge123")
     {
     password = prompt("Sisesta number")
-  Prooinud++
+  Proovinud++
 console.log('on proovinud', Proovinud )
 if (Proovinud > 4)
         break
 if (password!=number)
-alert("Number X on vale ")
+alert("Sorry, X ei ole õige number. ")
 if (password== number-1 || password== number+1)
 alert("Lähedal oled")
 if (password == null)
@@ -17,5 +18,6 @@ break
 
 
 }
-id(password==number) console.log("Õige number, läks kaua")
-console.log("Taun")
+if(password==number) console.log("Yay! Arvasid õige numbri ära!")
+else console.log("Nope")
+
